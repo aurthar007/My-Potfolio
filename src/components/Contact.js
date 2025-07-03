@@ -3,7 +3,8 @@ import {
   FaEnvelope,
   FaPhoneAlt,
   FaMapMarkerAlt,
-  FaLinkedin
+  FaLinkedin,
+  FaWhatsapp
 } from 'react-icons/fa';
 import '../App.css';
 
@@ -32,14 +33,24 @@ function Contact() {
                   <FaMapMarkerAlt className="me-2 icon-warning" />
                   Kolkata, India
                 </p>
-                <p className="contact-info">
+                <p className="contact-info mb-3">
                   <FaLinkedin className="me-2 icon-warning" />
                   <a
-                    href="https://www.linkedin.com/in/yourprofile"
+                    href="https://www.linkedin.com/in/avijit-gorai-634a9226b"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    linkedin.com/in/yourprofile
+                    linkedin.com/in/avijit-gorai-634a9226b
+                  </a>
+                </p>
+                <p className="contact-info">
+                  <FaWhatsapp className="me-2 icon-warning" />
+                  <a
+                    href="https://wa.me/917584076293"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Chat on WhatsApp
                   </a>
                 </p>
               </div>
