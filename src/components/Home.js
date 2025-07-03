@@ -1,0 +1,59 @@
+import React from 'react';
+import Typical from 'react-typical';
+import { FaDownload } from 'react-icons/fa';
+import resumePDF from '../assets/resume.pdf.pdf'; // Make sure this file exists
+import profileImg from '../assets/profile.jpg.jpg';   // ✅ Your profile picture
+import '../App.css';
+
+export default function Home() {
+  return (
+    <main id="home" className="hero-section-advanced d-flex align-items-center justify-content-center">
+      <div className="overlay"></div>
+
+      <div className="container text-center text-white position-relative z-1">
+        
+        {/* 👤 Profile Image */}
+        <div className="profile-wrapper mb-4">
+          <img
+            src={profileImg}
+            alt="Avijit Gorai"
+            className="profile-img shadow"
+          />
+        </div>
+
+        <h1 className="display-4 fw-bold mb-3 animate-fade">
+          Hi, I’m <span className="highlight-name">Avijit Gorai</span>
+        </h1>
+
+        <h2 className="typing-text mb-4 fs-4">
+          <Typical
+            steps={[
+              'Full-Stack Developer', 2000,
+              'React.js & .NET Core Specialist', 2000,
+              'Cloud & API Integrator', 2000,
+              'UI/UX Explorer', 2000
+            ]}
+            loop={Infinity}
+            wrapper="span"
+          />
+        </h2>
+
+        <a
+          href={resumePDF}
+          download="Avijit_Gorai_Resume.pdf"
+          className="btn btn-glow btn-lg px-4 py-2 shadow d-inline-flex align-items-center"
+        >
+          <FaDownload className="me-2" />
+          Download Resume
+        </a>
+
+        <div className="scroll-indicator mt-5" aria-hidden="true">
+          <div className="mouse">
+            <div className="wheel"></div>
+          </div>
+          <p className="mt-2 small text-white-50">Scroll Down</p>
+        </div>
+      </div>
+    </main>
+  );
+}
