@@ -1,17 +1,19 @@
 import React from 'react';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 import { FaDownload } from 'react-icons/fa';
 import resumePDF from '../assets/resume.pdf.pdf'; // Make sure this file exists
-import profileImg from '../assets/profile.jpg.jpg';   // ✅ Your profile picture
+import profileImg from '../assets/profile.jpg.jpg'; // ✅ Your profile picture
 import '../App.css';
 
 export default function Home() {
   return (
-    <main id="home" className="hero-section-advanced d-flex align-items-center justify-content-center">
+    <main
+      id="home"
+      className="hero-section-advanced d-flex align-items-center justify-content-center"
+    >
       <div className="overlay"></div>
 
       <div className="container text-center text-white position-relative z-1">
-        
         {/* 👤 Profile Image */}
         <div className="profile-wrapper mb-4">
           <img
@@ -26,15 +28,20 @@ export default function Home() {
         </h1>
 
         <h2 className="typing-text mb-4 fs-4">
-          <Typical
-            steps={[
-              'Full-Stack Developer', 2000,
-              'React.js & .NET Core Specialist', 2000,
-              'Cloud & API Integrator', 2000,
-              'UI/UX Explorer', 2000
+          <TypeAnimation
+            sequence={[
+              'Full-Stack Developer',
+              2000,
+              'React.js & .NET Core Specialist',
+              2000,
+              'Cloud & API Integrator',
+              2000,
+              'UI/UX Explorer',
+              2000,
             ]}
-            loop={Infinity}
             wrapper="span"
+            speed={50}
+            repeat={Infinity}
           />
         </h2>
 
