@@ -19,7 +19,7 @@ function About() {
           </div>
           <div className="col-md-8">
             <div className="card shadow p-4 border-0 bg-white bg-opacity-75">
-              <h4 className="text-dark mb-3">Junior Software Engineer | Full Stack Developer</h4>
+              <h4 className="text-dark mb-3">Intern Software Engineer | Full Stack Developer</h4>
               <p className="text-muted">
                 I’m a passionate full-stack developer with hands-on experience in designing and developing web applications using <strong>.NET Core</strong>, <strong>React.js</strong>, <strong>Redux</strong>, <strong>Bootstrap</strong>, <strong>Entity Framework</strong>, and <strong>LINQ</strong>. I currently work at <strong>Shiwansh Solutions</strong> where I contribute to scalable module-based solutions including Admin, Employee, and Employer features.
               </p>
