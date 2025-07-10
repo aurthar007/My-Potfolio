@@ -14,7 +14,7 @@ const educationList = [
     title: "BACHELOR OF COMPUTER APPLICATIONS",
     institution: "BANWRILAL BHALOTIA COLLEGE • ASANSOL, WEST BENGAL",
     year: "2022",
-    description: "Graduated with a CGPA of 9.40000."
+    description: "Graduated with a CGPA of 9.41."
   },
   {
     title: "HIGHER SECONDARY EDUCATION",
