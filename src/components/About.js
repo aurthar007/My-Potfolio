@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import profileImg from '../assets/Avi.jpg';
-
+//this is about 
 function About() {
   return (
     <section id="about" className="about-section py-5">
