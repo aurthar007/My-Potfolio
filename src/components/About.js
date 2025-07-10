@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about" className="about-section py-5">
       <div className="container">
-        <h2 className="text-center mb-5 fw-bold text-primary">About Me</h2>
+        <h2 className="text-center mb-5 fw-bold text-primary">About Me </h2>
 
         <div className="row align-items-center">
           <div className="col-md-4 text-center mb-4 mb-md-0">
@@ -19,7 +19,7 @@ function About() {
           </div>
           <div className="col-md-8">
             <div className="card shadow p-4 border-0 bg-white bg-opacity-75">
-              <h4 className="text-dark mb-3">Junior Software Engineer | Full Stack Developer</h4>
+              <h4 className="text-dark mb-3">Intern Software Engineer | Full Stack Developer</h4>
               <p className="text-muted">
                 I’m a passionate full-stack developer with hands-on experience in designing and developing web applications using <strong>.NET Core</strong>, <strong>React.js</strong>, <strong>Redux</strong>, <strong>Bootstrap</strong>, <strong>Entity Framework</strong>, and <strong>LINQ</strong>. I currently work at <strong>Shiwansh Solutions</strong> where I contribute to scalable module-based solutions including Admin, Employee, and Employer features.
               </p>
