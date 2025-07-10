@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about" className="about-section py-5">
       <div className="container">
-        <h2 className="text-center mb-5 fw-bold text-primary">About Me</h2>
+        <h2 className="text-center mb-5 fw-bold text-primary">About Me </h2>
 
         <div className="row align-items-center">
           <div className="col-md-4 text-center mb-4 mb-md-0">
